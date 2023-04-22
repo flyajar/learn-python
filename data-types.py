@@ -28,7 +28,7 @@ b = ['apple', 'banana', 'mango']
 print(a, b, "is a type of", type(b))
 
 # tuple
-# immutable items in parenthesis ()
+# immutable items in parentheses ()
 a = (1, 2, 3, 4)
 b = ('apple', 'banana', 'cherry')
 print(type(b))
