@@ -18,4 +18,8 @@ print(word.split('l'))
 # str.replace
 print(word.replace('hello', 'bacon'))
 
+# str.title
+print(word.title())
 
+# str.swapcase
+print(word.swapcase())
