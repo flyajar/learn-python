@@ -20,3 +20,8 @@ print(f'even numbers are {list(even_numbers)}')
 print(f'the smallest number is {min(numbers)}')
 
 print(f'the biggest number is {max(numbers)}')
+
+# supposed that you are given a number, from that number you have to create a list in a desc order
+
+number = 10
+print(list(range(number, 0, -1)))
