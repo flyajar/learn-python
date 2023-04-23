@@ -23,3 +23,9 @@ print(word.title())
 
 # str.swapcase
 print(word.swapcase())
+
+# str.join
+
+name = 'John Doe'
+print('.'.join(name.split(' ')))
+print('.'.join(name.split(' ')).lower())
