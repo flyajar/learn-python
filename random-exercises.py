@@ -34,3 +34,12 @@ calculate_pet_years(3)
 
 m = 11
 r = (m + 2) // 3
+
+# make each word starts with capital letter
+
+quote = "How can mirrors be real if our eyes aren't real"
+words = quote.split(' ')
+new_words = [word.capitalize() for word in words]
+
+
+print(new_words)
