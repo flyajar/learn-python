@@ -1,0 +1,40 @@
+Exercise 1: Variable and Data Type
+Write a Python program to store and print the following information using variables:
+
+```
+Name: John Doe
+Age: 25
+City: New York
+Country: United States
+```
+
+Exercise 2: Operators
+Write a Python program that calculates and prints the area of a rectangle. The program should take input from the user for the length and width of the rectangle, and then calculate and display the area.
+
+
+Exercise 3: Conditional Statement
+Write a Python program that takes an input from the user for an integer value and checks if it is positive, negative, or zero. Display an appropriate message accordingly.
+
+Exercise 4: Loops
+Write a Python program that prints the first 10 numbers of the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+Exercise 5: Functions
+Write a Python function that takes two numbers as input and returns their sum. The function should be able to handle both integer and floating-point numbers.
+
+Exercise 6: String Manipulation
+Write a Python program that takes a string input from the user and reverses it, then displays the reversed string.
+
+Exercise 7: Lists
+Write a Python program that creates a list of numbers from 1 to 10, and then prints the square of each number in the list.
+
+Exercise 8: Dictionary
+Write a Python program that creates a dictionary with the following key-value pairs:
+
+```
+Name: John
+Age: 25
+City: New York
+Country: United States
+```
+
+The program should display the dictionary in a formatted manner.
