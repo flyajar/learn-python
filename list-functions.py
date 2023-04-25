@@ -27,3 +27,10 @@ print(my_list)
 
 new_list = sorted(my_list)[:2]
 print(new_list)
+
+
+# list slicing
+# syntax list[start:end:step]
+
+new_list = my_list[::2]
+print(new_list)
