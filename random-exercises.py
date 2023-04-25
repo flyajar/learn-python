@@ -29,7 +29,6 @@ def calculate_pet_years(human_years):
 
 calculate_pet_years(3)
 
-
 # get the quarter of a month in where it belongs
 
 m = 11
@@ -41,5 +40,12 @@ quote = "How can mirrors be real if our eyes aren't real"
 words = quote.split(' ')
 new_words = [word.capitalize() for word in words]
 
-
 print(new_words)
+
+# remove every other element in a list
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+bools = [True, True, False, False, False, True, True]
+
+new_list = bools[::2]
+print(new_list)
