@@ -33,3 +33,19 @@ def check_number(number):
 check_number(1)
 check_number(-1)
 check_number(0)
+
+
+
+# exercise 4
+
+def fibonacci_sequence(n):
+
+    sequence = [0, 1]  # Initialize with first two Fibonacci numbers
+    while len(sequence) < n:
+        next_number = sequence[-1] + sequence[-2]  # Calculate next Fibonacci number
+        sequence.append(next_number)  # Add it to the sequence
+    return sequence
+
+n = 10
+sequence = fibonacci_sequence(n)
+print(sequence)
