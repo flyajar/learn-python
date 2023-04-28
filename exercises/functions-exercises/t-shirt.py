@@ -4,7 +4,7 @@
 # Call the function once using positional arguments to make a shirt. Call the
 # function a second time using keyword arguments.
 
-def make_shirt(size, message):
+def make_shirt(size='large', message='I love python'):
     print(f'\n Your shirt size is {size} and has a message of "{message}"')
 
 
@@ -13,3 +13,9 @@ make_shirt('medium', 'world peace!')
 
 # keyword arguments
 make_shirt(message='pineapple pizza', size='large')
+
+make_shirt();
+
+make_shirt('medium')
+
+make_shirt(message='Woof!')
